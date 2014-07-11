@@ -1,0 +1,20 @@
+{
+    "name": "krisanalfa/blade-naked",
+    "description": "Blade with Naked Theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krisan Alfa Timur",
+            "email": "krisan47@gmail.com"
+        }
+    ],
+    "require": {
+        "krisanalfa/blade-theme": "~0.4.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "KrisanAlfa\\Theme": "/Users/krisanalfa/Projects/Internal/blade-theme/src",
+            "KrisanAlfa\\Theme\\BladeNaked": "src"
+        }
+    }
+}
