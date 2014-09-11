@@ -30,7 +30,7 @@ input[type="submit"] {
 .navbar { position: relative; display: table; width: 100%; background: #0096C9; border: 0; }
 .navbar a.back-button { color: #fff; font-weight: 400; padding: 4px 0px 4px 25px; }
 .navbar a.back-button:before {
-    border-color: #fff; border: 0; background: url(../img/home.png) 0 0 no-repeat; background-size: cover; width: 20px; height: 18px;  left: 0; top: 5px; margin-top: 0;
+    border-color: #fff; border: 0; background: url(../img/home.png) 0 0 no-repeat; background-size: cover; width: 20px; height: 18px;  left: 0; top: 0; margin-top: 0;
     -webkit-transform: none;
     -moz-transform: none;
     -ms-transform: none;
@@ -39,7 +39,7 @@ input[type="submit"] {
 }
 .navbar h6.label { color: #fff; font-weight: 600; }
 .navbar p { color: #fff; }
-.navbar .icon-menu.icon-menu:after { border-top: 10px double #fff; border-bottom: 3px solid #fff; }
+.navbar .icon-menu.icon-menu:after { border-top: 10px double #fff; border-bottom: 3px solid #fff; margin-top: 0 !important; }
 .wrapper { padding: 0 10px; }
 .hidden-desktop { display: none; }
 input[type="text"],

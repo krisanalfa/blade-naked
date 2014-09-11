@@ -1,3 +1,7 @@
+@section('style')
+<link rel="stylesheet" href="{{ Theme::base('vendor/blade-foundation/css/foundation.css') }}" />
+@stop
+
 @section('content')
 <article class="row container">
     <div>
@@ -21,4 +25,8 @@
         </p>
     </div>
 </article>
+@endsection
+
+@section('tot')
+<link rel="stylesheet" href="" tot>
 @endsection

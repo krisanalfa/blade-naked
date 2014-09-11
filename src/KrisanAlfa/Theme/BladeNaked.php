@@ -19,7 +19,7 @@ class BladeNaked extends BladeTheme
         $directory = explode(DIRECTORY_SEPARATOR.'src', __DIR__);
         $directory = reset($directory);
 
-        $this->addBaseDirectory($directory, 5);
+        $this->addBaseDirectory($directory, 4);
 
         $this->resolveAssetPath('vendor/blade-naked');
     }

@@ -6,16 +6,16 @@
         @yield('title', (f('controller.name') . f('controller.method') ? f('controller.name') . ' ' . f('controller.method', true) : 'Bono'))
     </title>
 
-    <script src="{{ Theme::base('vendor/blade-naked/jquery/jquery.js') }}"></script>
-    <script src="{{ Theme::base('vendor/blade-naked/js/main.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <link rel="apple-touch-icon" sizes="114x114" href="{{ Theme::base('vendor/blade-naked/img/apple-touch-icon-114x114.png') }}" />
     <link rel="stylesheet" href="{{ Theme::base('vendor/blade-naked/css/naked.min.css') }}" />
     <link rel="stylesheet" href="{{ Theme::base('vendor/blade-naked/css/main.css') }}" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <script src="{{ Theme::base('vendor/blade-naked/jquery/jquery.js') }}"></script>
+    <script src="{{ Theme::base('vendor/blade-naked/js/main.js') }}"></script>
 </head>
 <body>
     <header>

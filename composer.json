@@ -9,11 +9,10 @@
         }
     ],
     "require": {
-        "krisanalfa/blade-theme": "~0.4.6"
+        "krisanalfa/blade-theme": "~0.4.7"
     },
     "autoload": {
         "psr-0": {
-            "KrisanAlfa\\Theme": "/Users/krisanalfa/Projects/Internal/blade-theme/src",
             "KrisanAlfa\\Theme\\BladeNaked": "src"
         }
     }
